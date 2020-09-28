@@ -1,0 +1,35 @@
+#nav{
+    position: relative;
+    height: 30px;
+    background-color: #F2F2F2;
+    display: flex;
+    
+}
+#nav span,a,i{
+    color:  #9A9A9A;
+}
+.nav-left{
+    margin-left: 30px;
+}
+.nav-left ul{
+    display: flex;
+}
+.nav-left ul li{
+    margin-left: 15px;
+    line-height: 30px;
+
+}
+.nav-left ul li i{
+    color:red;
+}
+.nav-right ul{
+    display: flex;
+    position: absolute;
+    right: 30px;
+}
+.nav-right ul li{
+    margin-right: 10px;
+}
+.f i:nth-of-type(1){
+    color: red;
+}
